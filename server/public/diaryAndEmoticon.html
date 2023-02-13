@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <!-- CSS -->
+  <link rel="shortcut icon" href="../photos/logo/favi_icon2.png" type="image/x-icon" />
+  <!-- Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" rel="stylesheet" />
+  <!-- google-font 字體是Lato-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
+  <!-- calendar -->
+  <link href='fullcalendar/main.css' rel='stylesheet' />
+
+
+
+  <link rel="stylesheet" href="/css/diaryAndEmoticon.css" />
+</head>
+
+<body>
+  <!-- logo start -->
+  <div class="logo-container">
+    <img class="logo-white-bgk" src="photos/logo/logo-white-bgk.png" />
+  </div>
+  <!-- logo end -->
+
+  <!-- Start: Journal, reflect and look back -->
+  <!-- <div class="journal-col-container">
+    Journal, reflect and look back
+  </div> -->
+  <!-- End: Journal, reflect and look back -->
+
+  <!-- calendar-start -->
+  <div class="container">
+    <div class="calendar-assets">
+      <!-- <h1 id="currentDate"></h1>
+      <div class="field">
+        <label for="date">Pesquisa por data</label>
+        <form class="form-input" id="date-search" onsubmit="return setDate(this)">
+          <input type="date" class="text-field" name="date" id="date" required>
+          <button type="submit" class="btn btn-small" title="Pesquisar"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <div class="day-assets">
+        <button class="btn" onclick="prevDay()" title="Dia anterior"><i class="fas fa-chevron-left"></i> </button>
+        <button class="btn" onclick="resetDate()" title="Dia atual"><i class="fas fa-calendar-day"></i> Hoje</button>
+        <button class="btn" onclick="nextDay()" title="Próximo dia"><i class="fas fa-chevron-right"></i> </button>
+      </div>
+    </div> -->
+      <div class="calendar" id="table">
+        <div class="header">
+          <!-- Aqui é onde ficará o h1 com o mês e o ano -->
+          <div class="month" id="month-header">
+
+          </div>
+          <div class="buttons">
+            <button class="icon previous-month" onclick="prevMonth()" title="Mês anterior"><i
+                class='bx bx-chevron-left'></i></button>
+            <button class="icon next-month" onclick="nextMonth()" title="Próximo mês"><i
+                class='bx bx-chevron-right'></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- calendar-end -->
+
+  <!-- emoji-selection-start -->
+  <div class="emoji-container">
+    <img data-emoji="1" class="emoji-bar happy-emoji" src="photos/emoji/happy.png" />
+    <img data-emoji="2" class="emoji-bar surprised-emoji" src="photos/emoji/surprised.png" />
+    <img data-emoji="3" class="emoji-bar neutral-emoji" src="photos/emoji/neutral.png" />
+    <img data-emoji="4" class="emoji-bar sad-emoji" src="photos/emoji/sad.png" />
+    <img data-emoji="5" class="emoji-bar angry-emoji" src="photos/emoji/angry.png" />
+  </div>
+  <!-- emoji-selection-end -->
+
+  <!-- diary-iput-start -->
+  <div class="diary-editor">
+    <form id="diary-form">
+      <button class = "button-Btn diary-content" id = "button"> Write Your Diary</button>
+      <!-- <i class='uploadPhoto bx bx-photo-album'></i> -->
+      <!-- <input type="file" id="diary-pic-upload" name="img" accept="image/*"> -->
+
+      <!-- <div class="button-container"> -->
+        <!-- <input class ="button-Btn" type="submit" value="Edit" id="edit"> -->
+        <!-- <button class = "button-Btn">Edit</button> -->
+      <!-- </div> -->
+
+    </form>
+  </div>
+  <!-- diary-input-end -->
+
+
+  <!-- bottom-nav-bar-start -->
+  <main>
+    <div class="bottom-bar">
+      <div class="tab home-tab">
+        <i class="bx bx-home-smile"></i>
+        <div class="bottom-button-label">HOME</div>
+      </div>
+
+      <div class="tab calendar-tab">
+        <i class="bx bx-calendar"></i>
+        <div class="bottom-button-label">CALENDAR</div>
+      </div>
+
+      <div class="tab mood-tab">
+        <i class="bx bx-smile"></i>
+        <div class="bottom-button-label">MOOD</div>
+      </div>
+
+      <div class="tab mentor-tab">
+        <i class="bx bx-donate-heart"></i>
+        <div class="bottom-button-label">MENTOR</div>
+      </div>
+
+      <div class="tab setting-tab">
+        <i class="bx bx-cog"></i>
+        <div class="bottom-button-label">SETTING</div>
+      </div>
+    </div>
+  </main>
+  <!-- bottom-nav-bar-end -->
+
+  <!-- Boxicons CSS -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- calendar -->
+  <script src='fullcalendar/main.js'></script>
+
+  <!-- JS -->
+  <script src="./js/diaryAndEmoticon.js"></script>
+</body>
+
+</html>

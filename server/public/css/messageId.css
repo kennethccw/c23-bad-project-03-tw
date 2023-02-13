@@ -1,0 +1,90 @@
+body {
+    background-image: url('../../photos/logo/background.png');
+    /* background-color: aqua; */
+    font-family: 'Lato', sans-serif;
+    margin:0;
+}
+.frameOfMind-logo {
+    margin-bottom: 34px;
+    width: 430px;
+    margin-left: 9px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.logoContainer{
+    width: 392px;
+    height: 141px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.message-to{
+    border: 1px black solid;
+    height: 80px;
+    display: flex;
+    
+    
+}
+
+.userImage{
+    width: 100px;
+    border: 1px black solid;
+}
+
+.userName{
+    font-size:x-large;
+    margin: 25px;
+    
+    
+    height: 40px;
+
+}
+.box1{
+    margin: 10px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.userID{
+    width: 349px;
+    height: 294px;
+    border: 1px black solid;
+}
+
+.bottom-bar {
+  
+    /* margin-top: 150px; */
+   
+    
+    width: 440px;
+    height: 82px;
+    background-color: #fff0e7;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+  
+.bottom-button-label {
+    font-size: 12px;
+    margin-top: 2px;
+}
+  
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <!-- CSS -->
+  <link rel="shortcut icon" href="/photos/logo/favi_icon2.png" type="image/x-icon">
+  <!-- Boxicons CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+
+  <!-- google-font 字體是Lato-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/css/register.css">
+
+</head>
+
+<body>
+  <div class="main-container">
+    <!-- logo start -->
+    <span>
+      <img class="frameOfMind-logo" src="/photos/logo/logo_white.png">
+    </span>
+    <!-- logo end -->
+
+    <form id="register-form">
+      <div class="edit-profile-container">
+
+        <img hidden class="profile-pig" />
+      <i class='bx bx-user-circle profile-pic'> </i>
+        <div class="profile-pic-edit-bg">
+          <i class='bx bx-photo-album profile-pic-edit'>
+            <input type="file" id="profile-pic-upload" name="image" accept="image/*">
+          </i>
+        </div>
+      </div>
+
+
+      <div class="username input-container">
+        <!-- <div class="input-label" style="font-size: 20px;">Username</div> -->
+        <input class="username input-content" type="text" placeholder="Username" name="username" data-label="Username">
+      </div>
+      <div class="email input-container">
+        <!-- <div class="input-label" style="font-size: 20px;">Email</div> -->
+        <input class="email input-content" type="email" placeholder="Email" name="email" data-label="Email">
+      </div>
+
+      <div class="password input-container">
+        <!-- <div class="input-label" style="font-size: 20px;">Password</div> -->
+        <input class="password input-content" type="password" placeholder="Password" name="password"
+          data-label="Password">
+      </div>
+
+      <div class="age input-container">
+        <!-- <div class="input-label" style="font-size: 20px;">Age</div> -->
+        <input class="age input-content" type="number" placeholder="Age" name="age" data-label="Age">
+      </div>
+
+      <div class="medical-history input-container">
+        <!-- <div class="input-label" style="font-size: 20px;">Medical History</div> -->
+        <input class="medical-history input-content" type="text" placeholder="Medical History" name="medicalHistory"
+          data-label="Medical History">
+      </div>
+      <div class="privacy-checkbox-container">
+        <input type="checkbox" name="" id="privacy-checkbox">
+        <div>By continuing you accept our Privacy Policy and Terms of Use</div>
+      </div>
+      <button class="register-submit-button" type="submit">Sign Up</button>
+    </form>
+  </div>
+
+
+
+
+  <!-- Boxicons CSS -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- JS -->
+  <script src="/js/register.js"></script>
+</body>
+
+</html>

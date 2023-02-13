@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat room</title>
+    <!-- CSS -->
+    <link
+      rel="shortcut icon"
+      href="../photos/logo/favi_icon2.png"
+      type="image/x-icon"
+    />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
+      rel="stylesheet"
+    />
+
+    <!-- google-font 字體是Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/chatRoom.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- logo start -->
+      <span>
+        <img class="frameOfMind-logo" src="../photos/logo/logo_white.png" />
+      </span>
+      <!-- logo end -->
+      <div class="logoContainer">
+        <img src="../photos/logo/treehole.jpg" alt="" width="99" height="100" />
+        <div class="box1">
+          <h1>心情樹洞</h1>
+          <p>Below is our mentor list</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <div class="textHistory">
+          <div class="wellcomeMessage-container"></div>
+          <div class="newMessage-container">
+            
+          </div>
+          
+            
+          
+        </div>
+
+        <form id="form-textarea" name="form-textarea">
+          <textarea
+            id="textarea"
+            name="textarea"
+            placeholder="TEXT HERE...."
+          ></textarea>
+          <input type="submit" id="submit" />
+        </form>
+      </div>
+      <main class="main" style="position: absolute; bottom: 0">
+        <div class="bottom-bar">
+          <div class="tab home-tab">
+            <i class="bx bx-home-smile"></i>
+            <div class="bottom-button-label">HOME</div>
+          </div>
+
+          <div class="tab calendar-tab">
+            <i class="bx bx-calendar"></i>
+            <div class="bottom-button-label">CALENDAR</div>
+          </div>
+
+          <div class="tab mood-tab">
+            <i class="bx bx-smile"></i>
+            <div class="bottom-button-label">MOOD</div>
+          </div>
+
+          <div class="tab mentor-tab">
+            <i class="bx bx-donate-heart"></i>
+            <div class="bottom-button-label">MENTOR</div>
+          </div>
+
+          <div class="tab setting-tab">
+            <i class="bx bx-cog"></i>
+            <div class="bottom-button-label">SETTING</div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Boxicons CSS -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- JS -->
+    <!-- <script src="./js/register.js"></script> -->
+    <script src="./js/chatRoom.js"></script>
+  </body>
+</html>

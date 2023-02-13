@@ -1,0 +1,7 @@
+.venv
+audio
+data
+logs
+uploads/*
+.vscode
+.demoenv

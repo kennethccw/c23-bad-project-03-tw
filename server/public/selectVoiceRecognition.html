@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <!-- CSS -->
+  <link rel="shortcut icon" href="../photos/logo/favi_icon2.png" type="image/x-icon" />
+  <!-- Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" rel="stylesheet" />
+  <!-- google-font 字體是Lato-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/selectVoiceRecognition.css" />
+</head>
+
+<body>
+  <!-- logo start -->
+  <div class="logo-container">
+    <img class="logo-white-bgk" src="../photos/logo/logo-white-bgk.png" />
+  </div>
+  <!-- logo end -->
+
+
+  <div class="feeling-day-container">
+    <div>HOW ARE YOU <span class="feeling">FEELING</span> RIGHT NOW?</div>
+  </div>
+
+  <!-- emoji-start -->
+  <div class="emoji-container">
+    <div class="emoji-content">
+      <div>
+        <img data-emoji="2" class="emoji surprised-emoji" src="../photos/emoji/surprised.png" />
+        <img data-emoji="3" class="emoji neutral-emoji" src="../photos/emoji/neutral.png" />
+      </div>
+      <div>
+        <img data-emoji="4" class="emoji sad-emoji" src="../photos/emoji/sad.png" />
+        <img data-emoji="5" class="emoji angry-emoji" src="../photos/emoji/angry.png" />
+      </div>
+      <div>
+        <img data-emoji="1" class="emoji happy-emoji" src="../photos/emoji/happy.png" />
+      </div>
+    </div>
+  </div>
+  <!-- emoji-end -->
+
+  <!-- start-recording-start -->
+  <div class="resume-pause-container">
+    <div class="for-flex-column">
+      <div class="audio-container" id="pause">
+        <i class="audio fa-solid fa-microphone"></i>
+      </div>
+      <div class="resume-pause-text" hidden>Tap to Pause</div>
+    </div>
+  </div>
+
+  <div class="start-recording-container">
+    <div class="for-flex-column">
+      <div class="start-recording-lab" id="record">
+        <div class="start-recording-text">Start Recording</div>
+      </div>
+    </div>
+  </div>
+  <div class="record-again-container" hidden>
+    <div class="for-flex-column">
+      <!-- <input class="recording-file-input" type="file" name="audio" accept="audio/wav" style="width: 0; height: 0;"> -->
+      <audio id="audio" controls></audio>
+      <div class="record-again-button">
+        <div class="record-again-text">Record Again</div>
+      </div>
+      <div class="save-button">
+        <div class="save-text">Save</div>
+      </div>
+    </div>
+  </div>
+  <!-- start-recording-end -->
+
+
+
+  <!-- bottom-nav-bar-start -->
+  <main>
+    <div class="bottom-bar">
+      <div class="tab home-tab">
+        <i class="bx bx-home-smile"></i>
+        <div class="bottom-button-label">HOME</div>
+      </div>
+
+      <div class="tab calendar-tab">
+        <i class='bx bx-calendar'></i>
+        <div class="bottom-button-label">CALENDAR</div>
+      </div>
+
+      <div class="tab mood-tab">
+        <i class='bx bx-smile'></i>
+        <div class="bottom-button-label">MOOD</div>
+      </div>
+
+      <div class="tab mentor-tab">
+        <i class='bx bx-donate-heart'></i>
+        <div class="bottom-button-label">MENTOR</div>
+      </div>
+
+      <div class="tab setting-tab">
+        <i class='bx bx-cog'></i>
+        <div class="bottom-button-label">SETTING</div>
+      </div>
+    </div>
+  </main>
+  <!-- bottom-nav-bar-end -->
+
+  <!-- below is bottom-area, rmb to change js file-->
+  <!-- Boxicons CSS -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- JS -->
+  <script src="./js/selectVoiceRecognition.js"></script>
+</body>
+
+</html>

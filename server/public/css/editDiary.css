@@ -1,0 +1,111 @@
+body {
+    background-image: url('../../photos/logo/background.png');
+    /* background-color: aqua; */
+    font-family: 'Lato', sans-serif;
+    margin:0;
+}
+.frameOfMind-logo {
+    margin-bottom: 34px;
+    /* height: 122px; */
+    width: 430px;
+    margin-left: -9px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.width-machine {
+    /*   Sort of a magic number to add extra space for number spinner */
+    padding: 0 5rem;
+}
+
+#profile-pic-upload {
+  opacity: 0;
+  width: 55px;
+  height: 55px;
+  border-radius: 80px;
+  position: absolute;
+  left: -11px;
+  bottom: -11px;
+}
+
+.textarea{
+    width: 387px;
+    height: 463px;
+    border: 1px black solid;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+
+
+.button-container{
+    margin-left: 61%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.saving-col {
+  width: 49px;
+}
+
+#button{
+    width: 34px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #FFD6A5;
+    margin: 10px;
+    position: relative;
+}
+
+#submit{
+    background-color: #FFD6A5;
+    border-radius: 20px;
+    height: 30px;
+    
+}
+
+.bottom-bar {
+  
+    /* margin-top: 150px; */
+   
+    
+    width: 440px;
+    height: 82px;
+    background-color: #fff0e7;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+  
+.bottom-button-label {
+    font-size: 12px;
+    margin-top: 2px;
+}
+  
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-with-picture {
+    width: 430px;
+    height: 133px;
+    left: 1px;
+    margin: 8px;
+}
+  
+.nav-bar-with-bgk {
+    margin: 0px;
+}
+
+

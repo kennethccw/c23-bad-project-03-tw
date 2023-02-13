@@ -1,0 +1,103 @@
+body {
+    background-image: url('../../photos/logo/background.png');
+    /* background-color: aqua; */
+    font-family: 'Lato', sans-serif;
+    margin:0;
+}
+.frameOfMind-logo {
+    margin-bottom: 34px;
+    height: 122px;
+    width: 437px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.calendar{
+    width: 328px ;
+    height: 354px;
+    background-color: #FFF0E7;
+}
+
+#button{
+    border-radius: 20px;
+    width: 187px;
+    height: 46px;
+    background-color: #FFD6A5;
+    font-size: 18px;
+}
+
+.bottom-bar {
+  
+    margin-top: 150px;
+    
+    width: 440px;
+    height: 82px;
+    background-color: #fff0e7;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+  
+.bottom-button-label {
+    font-size: 12px;
+    margin-top: 2px;
+}
+  
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .happy-emoji {
+    width: 77px;
+    height: 70px;
+    margin-right: 3px;
+  }
+  
+  .surprised-emoji {
+    width: 77px;
+    height: 70px;
+    margin-right: 3px;
+  }
+  
+  .neutral-emoji {
+    width: 77px;
+    height: 70px;
+    margin-right: 3px;
+  }
+  
+  .sad-emoji {
+    width: 77px;
+    height: 70px;
+    margin-right: 3px;
+  }
+  
+  
+  .angry-emoji {
+    width: 77px;
+    height: 70px;
+    margin-right: 3px;
+  }
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,108 @@
+body {
+  background-image: url('../../photos/logo/background.png');
+  /* background-color: aqua; */
+  font-family: 'Lato', sans-serif;
+  margin:0;
+}
+
+/* logo-start */
+.logo-white-bgk{
+  /* position: absolute; */
+  width: 430px;
+  height: 134px;
+}
+/* logo-end */
+
+.welcome-back {
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 40px;
+}
+
+/* login-form */
+#login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+/* username */
+.input-container {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  width: 234px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+
+.username {
+  background-color: #D5F9FF;
+}
+.password {
+  background-color: #FF9C9C;
+}
+
+.input-content {
+  text-align: center;
+  font-size: 20px;
+  border: 0;
+  height: 62px;
+  width: 234px;
+  border-radius: 14px;
+}
+
+.btn-success {
+text-decoration: none;
+color: black;
+}
+
+/* sign-in-with-google */
+.sign-in-with-google-container{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 120px;
+  width: 204px;
+  height: 49px;
+}
+
+.sign-in-with-google{
+  margin-left: 10px;
+}
+
+/* existing-member-login */
+.existing-member-login{
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 120px;
+  border: 0;
+  width: 204px;
+  height: 49px;
+}
+
+
+/* breaking-up */
+.break-up {
+  margin-top: 63px;
+  margin-left: -4px;
+  font-size: 30px;
+}
+
+.login-button {
+  font-size: 17px;
+}

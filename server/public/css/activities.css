@@ -1,0 +1,167 @@
+body {
+    background-image: url('../../photos/logo/background.png');
+    /* background-color: aqua; */
+    font-family: 'Lato', sans-serif;
+    margin:0;
+}
+.frameOfMind-logo {
+    margin-bottom: 34px;
+    /* height: 122px; */
+    width: 430px;
+    margin-left:6px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.width-machine {
+    /*   Sort of a magic number to add extra space for number spinner */
+    padding: 0 5rem;
+}
+
+h1{
+    font-size: small;
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    height: 101px;
+    width: 355px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: small;
+  }
+  
+  .happy-emoji {
+    width: 55px;
+    height: 50px;
+    margin-right: 3px;
+  }
+  
+  .surprised-emoji {
+    width: 55px;
+    height: 50px;
+    margin-right: 3px;
+  }
+  
+  .neutral-emoji {
+    width: 55px;
+    height: 50px;
+    margin-right: 3px;
+  }
+  
+  .sad-emoji {
+    width: 55px;
+    height: 50px;
+    margin-right: 3px;
+  }
+  
+  
+  .angry-emoji {
+    width: 55px;
+    height: 50px;
+    margin-right: 3px;
+  }
+  
+  #happy-days{
+    height: 18px;
+  }
+
+  #surprised-days{
+    height: 18px;
+  }
+
+  #neutral-days{
+    height: 18px;
+  }
+
+  #sad-days{
+    height: 18px;
+  }
+
+  #angry-days{
+    height: 18px;
+  }
+
+  
+
+.checkbox-container{
+    display: flex;
+}
+
+#checkbox{
+    font-size: 40px;
+}
+  
+h2{
+    font-size: medium;
+}
+
+#activities-container{
+    border: 1px black solid;
+    width:355px;
+    height: 336px;
+    border-radius: 20px;
+}
+
+.activities{
+    /* border: 1px black solid; */
+    display:flex;
+    height: 100px;
+    padding: 10px;
+}
+
+.itemImage{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+.bottom-bar {
+  
+    /* margin-top: 150px; */
+   
+    
+    width: 440px;
+    height: 82px;
+    background-color: #fff0e7;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+  
+.bottom-button-label {
+    font-size: 12px;
+    margin-top: 2px;
+}
+  
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-with-picture {
+    width: 430px;
+    height: 133px;
+    left: 1px;
+    /* margin: 158px; */
+}
+  
+.nav-bar-with-bgk {
+    margin: 0px;
+}
+
+

@@ -1,0 +1,83 @@
+body {
+    background-image: url('../../photos/logo/background.png');
+    /* background-color: aqua; */
+    font-family: 'Lato', sans-serif;
+    margin:0;
+}
+.frameOfMind-logo {
+    margin-bottom: 34px;
+    height: 122px;
+    width: 437px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.mottosBox{
+    width: 330px;
+    height: 117px;
+    background-color: #D5F9FF;
+
+}
+
+.calendar{
+    width: 328px ;
+    height: 354px;
+    background-color: #FFF0E7;
+}
+
+.musicButton{
+    width: 30px;
+    height: 38px;
+    font-size: 15px;
+    font-weight: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.playButton{
+    width: 165px;
+    height: 35px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    box-shadow: 0 5px #999;
+    font-stretch:ultra-expanded;
+}
+
+#playIcon{
+   color: #FFE1E1;
+   
+
+   
+}
+
+.bottom-bar {
+  
+    margin-top: 150px;
+    
+    width: 440px;
+    height: 82px;
+    background-color: #fff0e7;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  
+  .bottom-button-label {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  .tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

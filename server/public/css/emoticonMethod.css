@@ -1,0 +1,149 @@
+body {
+  background-image: url('../../photos/logo/background.png');
+  /* background-color: aqua; */
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+/* logo-start */
+.logo-white-bgk {
+  /* position: absolute; */
+  width: 430px;
+  height: 134px;
+}
+/* logo-end */
+
+/* bottom-nav-bar-start */
+.nav-bar-with-bgk-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bar-with-picture {
+  width: 430px;
+  height: 133px;
+  left: 1px;
+  margin: 158px;
+}
+
+.nav-bar-with-bgk {
+  margin: 0px;
+}
+
+.bottom-bar {
+  position: absolute;
+  bottom: 0;
+  width: 430px;
+  height: 82px;
+  background-color: #fff0e7;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-button-label {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* bottom-nav-bar-end */
+
+.hey-there-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 127px;
+}
+
+.mood-tracking-png {
+  width: 149px;
+  height: 127px;
+  margin-left: -56px;
+}
+
+.hey-there {
+  width: 222px;
+  height: 108px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 131.02%;
+  /* or 20px */
+
+  letter-spacing: 0.19em;
+
+  color: #000000;
+  margin-left: 20px;
+}
+
+.today-my-day-was {
+  width: 256px;
+  height: 57px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.19em;
+
+  color: #ff9c9c;
+  margin-top: 39px;
+}
+
+.today-my-day-was-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.happy-emoji {
+  width: 77px;
+  height: 70px;
+  margin-right: 3px;
+}
+
+.surprised-emoji {
+  width: 77px;
+  height: 70px;
+  margin-right: 3px;
+}
+
+.neutral-emoji {
+  width: 77px;
+  height: 70px;
+  margin-right: 3px;
+}
+
+.sad-emoji {
+  width: 77px;
+  height: 70px;
+  margin-right: 3px;
+}
+
+
+.angry-emoji {
+  width: 77px;
+  height: 70px;
+  margin-right: 3px;
+}
+
+.emoji {
+  opacity: 50%;
+}
+
+
+

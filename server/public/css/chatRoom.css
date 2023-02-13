@@ -1,0 +1,130 @@
+body {
+    background-image: url('../../photos/logo/background.png');
+    /* background-color: aqua; */
+    font-family: 'Lato', sans-serif;
+    margin:0;
+}
+.frameOfMind-logo {
+    margin-bottom: 34px;
+    height: 122px;
+    width: 437px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.logoContainer{
+    width: 392px;
+    height: 141px;
+    margin-left: 100px;
+    display: flex;
+}
+
+/* img{
+    width: 99px;
+    height: 92px;
+    
+} */
+
+.box1{
+    margin: 10px;
+}
+
+h1{
+    font-size: 20px;
+}
+.text-container{
+ width: 377px;
+ height: 455px;
+ 
+ 
+
+}
+
+.textHistory{
+    height: 300px;
+    border: 1px black solid;
+}
+
+.wellcomeMessage-container{
+   
+    display:flex;
+    font-size: large;
+}
+
+
+
+.msgImage {
+   margin: 5px;
+   height: 60px;
+}
+
+.wellcomeMessage{
+    
+    margin: 20px;
+    
+}
+
+.msgBox{
+    /* border: 1px green solid; */
+    display:flex;
+    font-size: large;
+}
+
+.newMsgImage{
+    /* border: 1px purple solid; */
+    margin: 5px;
+   height: 60px;
+   width: 60px;
+
+}
+
+
+
+#textarea{
+    width: 372px;
+    height: 111px;
+
+}
+
+#submit{
+    width: 90px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #FCFDD8;
+    margin-left: 78%;
+    
+}
+
+.bottom-bar {
+  
+    /* margin-top: 150px; */
+   
+    
+    width: 440px;
+    height: 82px;
+    background-color: #fff0e7;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+  
+.bottom-button-label {
+    font-size: 12px;
+    margin-top: 2px;
+}
+  
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

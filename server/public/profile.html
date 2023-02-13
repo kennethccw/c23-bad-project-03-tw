@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <!-- CSS -->
+  <link rel="shortcut icon" href="../photos/logo/favi_icon2.png" type="image/x-icon" />
+  <!-- Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" rel="stylesheet" />
+  <!-- google-font 字體是Lato-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/profile.css" />
+</head>
+
+<body>
+  <!-- logo start -->
+  <div class="logo-container">
+    <img class="logo-white-bgk" src="../photos/logo/logo-white-bgk.png" />
+  </div>
+  <!-- logo end -->
+
+  <!-- edit profile-information -->
+  <form id="edit-profile-form">
+
+    <!-- edit profile-picture -->
+    <div class="profile-edit-container">
+      <img hidden class="profile-pig" />
+      <i hidden class='bx bx-user-circle profile-pic'> </i>
+      <div class="edit-profile-button">
+        <i class="edit-profile-pig bx bx-photo-album">
+          <input type="file" id="profile-pic-upload" name="image" accept="image/*">
+        </i>
+      </div>
+    </div>
+
+    <div class="user-info-col">
+      <!-- <div class="input-container usernameTab">  ${key}Tab -->
+        <!-- <span class="input-label">Username: </span> -->
+        <!-- <input class="input-content" type="text" placeholder="Peter Evans" /> -->
+      <!-- </div> -->
+
+      <!-- <div class="input-container emailTab">
+        <span class="input-label">Email: </span>
+        <input class="input-content" type="text"
+          placeholder="PeterEvans@gmail.com" />
+      </div>
+
+      <div class="input-container ageTab">
+        <span class="input-label">Age: </span>
+        <input class="input-content" type="text" placeholder="05-10-1996" />
+      </div>
+
+      <div class="input-container medical_Tab">
+        <span class="input-label">Medical History: </span>
+        <input class="input-content" type="text"
+          placeholder="Insomnia" />
+      </div> -->
+    </div>
+  <!-- </form> -->
+
+  <!-- depression-reminder -->
+  <!-- <form> -->
+    <div class="depression-reminder">
+      <div class="reminder-lab">21 Days Depression Reminder:</div>
+
+      <div class="notification-container">
+        <input class="get-notified" type="checkbox" id="notification" name="notification" checked />
+        <label for="notification">Get Notified</label>
+      </div>
+
+      <div class="emergency-container">
+        <input class="emerency-contact" type="checkbox" id="emergency-contact" name="emergency-contact" />
+        <label for="emergency-contact">Inform Emergency Contact</label>
+      </div>
+    </div>
+
+    <button type="submit" class="edit-profile">
+      <div>SAVE CHANGES</div>
+    </button>
+
+    <button type="submit" class="logout-button edit-profile ">
+      <div>LOG OUT</div>
+    </button>
+
+  </form>
+
+
+  <!-- bottom-nav-bar-start -->
+  <main>
+    <div class="bottom-bar">
+      <div class="tab home-tab">
+        <i class="bx bx-home-smile"></i>
+        <div class="bottom-button-label">HOME</div>
+      </div>
+
+      <div class="tab calendar-tab">
+        <i class='bx bx-calendar'></i>
+        <div class="bottom-button-label">CALENDAR</div>
+      </div>
+
+      <div class="tab mood-tab">
+        <i class='bx bx-smile'></i>
+        <div class="bottom-button-label">MOOD</div>
+      </div>
+
+      <div class="tab mentor-tab">
+        <i class='bx bx-donate-heart'></i>
+        <div class="bottom-button-label">MENTOR</div>
+      </div>
+
+      <div class="tab setting-tab">
+        <i class='bx bx-cog'></i>
+        <div class="bottom-button-label">SETTING</div>
+      </div>
+    </div>
+  </main>
+  <!-- bottom-nav-bar-end -->
+
+  <!-- below is bottom-area, rmb to change js file-->
+  <!-- Boxicons CSS -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- JS -->
+  <script src="js/profile.js"></script>
+</body>
+
+</html>

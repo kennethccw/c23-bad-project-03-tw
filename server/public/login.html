@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <!-- CSS -->
+  <link rel="shortcut icon" href="../photos/logo/favi_icon2.png" type="image/x-icon">
+  <!-- Boxicons CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+
+  <link rel="stylesheet" href="./css/login.css">
+
+</head>
+
+<body>
+  <!-- logo start -->
+  <div class="img-container">
+    <img class="logo-white-bgk" src="../photos/logo/logo-white-bgk.png" />
+  </div>
+  <!-- logo end -->
+
+  <div class="welcome-back"> Welcome Back! </div>
+
+  <form id="login-form">
+    <div class="username input-container">
+      <!-- <div class="input-label" style="font-size: 20px;">Username</div> -->
+      <input class="username input-content" placeholder="Username" type="text" name="username" value="kayaggliu">
+    </div>
+
+    <div class="password input-container">
+      <!-- <div class="input-label" style="font-size: 20px;">Password</div> -->
+      <input class="password input-content" placeholder="Password" type="password" name="password" value="12345678">
+    </div>
+
+    <!-- existing-member -->
+    <button type="submit" class="existing-member-login">
+      <div class="login-button">Login</div>
+    </button>
+
+
+    <div class="break-up"> or </div>
+
+    <!-- google-login -->
+    <div class="sign-in-with-google-container">
+      <i class='bx bxl-google'></i>
+      <!-- <div class="sign-in-with-google"> Sign in with Google</div> -->
+      <a href="/connect/google" class="btn btn-success">Sign in With Google</a>
+    </div>
+
+  </form>
+  <!-- Boxicons CSS -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- JS -->
+  <script src="./js/login.js"></script>
+</body>
+
+</html>

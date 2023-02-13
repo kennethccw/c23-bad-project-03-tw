@@ -1,0 +1,183 @@
+body {
+  background-image: url('../../photos/logo/background.png');
+  /* background-color: aqua; */
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+/* logo-start */
+.logo-white-bgk {
+  /* position: absolute; */
+  width: 430px;
+  height: 134px;
+}
+/* logo-end */
+
+/* bottom-nav-bar-start */
+.nav-bar-with-bgk-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bar-with-picture {
+  width: 430px;
+  height: 133px;
+  left: 1px;
+  margin-top: 35px;
+}
+
+.nav-bar-with-bgk {
+  margin: 0px;
+}
+
+.bottom-bar {
+  position: absolute;
+  bottom: 0;
+  width: 430px;
+  height: 82px;
+  background-color: #fff0e7;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-button-label {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* bottom-nav-bar-end */
+
+.feeling-day-container {
+  width: 287px;
+  height: 62px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.19em;
+  margin-left: 75px;
+  margin-top: 61px;
+  margin-bottom: 19px;
+}
+
+.feeling {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.19em;
+  color: #ff9c9c;
+}
+
+.emoji-container {
+  border: 1px solid black;
+  width: 309px;
+  height: 283px;
+  border-radius: 32px;
+  margin-left: 59px;
+}
+
+.emoji-content {
+  margin-left: 32px;
+  margin-top: 33px;
+}
+
+.happy-emoji {
+  margin-left: 70px;
+  width: 139px;
+  height: 129px;
+  margin-right: 3px;
+  z-index: 99;
+  margin-left: 51px;
+  margin-top: -262px;
+  margin-bottom: 66px;
+}
+
+.surprised-emoji {
+  width: 119px;
+  height: 109px;
+  margin-right: 3px;
+}
+
+.neutral-emoji {
+  width: 119px;
+  height: 109px;
+  margin-right: 3px;
+}
+
+.sad-emoji {
+  width: 119px;
+  height: 109px;
+  margin-right: 3px;
+}
+
+.angry-emoji {
+  width: 119px;
+  height: 109px;
+  margin-right: 3px;
+}
+
+.audio-container {
+  border: 2px solid #979797;
+  width: 90px;
+  height: 90px;
+  border-radius: 200px;
+  /* margin-left: 168px; */
+  margin-top: 48px;
+  color: #757575;
+}
+
+.audio {
+  font-size: 65px;
+  color: #f7cffe;
+  margin-left: 21px;
+  margin-top: 10px;
+}
+
+
+
+.start-recording-lab, .record-again-button, .save-button{
+  background: #f7cffe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+  width: 194px;
+  height: 50px;
+  /* margin-left: 127px; */
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-recording-text {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.19em;
+  color: #000000;
+  /* margin-left: 16px; */
+}
+
+.for-flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-text {
+  margin-top: 4px;
+}
+
+.record-again-container {
+  margin-top: 32px;
+}
+

@@ -1,0 +1,68 @@
+body {
+  background-image: url('../photos/logo/background.png');
+  /* background-color: aqua; */
+  font-family: 'Lato', sans-serif;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.pink-box {
+  width: 338px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #FFE1E1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+.frameOfMind-logo{
+  width: 164px;
+  height: 80px;
+  margin-top: 32px;
+}
+
+
+.btn-success {
+  text-decoration: none;
+  color: black;
+  }
+  
+  /* sign-in-with-google */
+  .sign-in-with-google-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 120px;
+    width: 204px;
+    height: 49px;
+  }
+
+.sign-in-with-google{
+  margin-left: 10px;
+}
+
+
+.create-account{
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 120px;
+  width: 204px;
+  height: 49px;
+}
+
+.existing-member-login{
+  margin-top: 22px;
+}
+
